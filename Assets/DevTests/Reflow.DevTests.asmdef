@@ -1,0 +1,29 @@
+{
+    "name": "Reflow.DevTests",
+    "rootNamespace": "Reflow.DevTests",
+    "references": [
+        "Reflow",
+        "Reflow.Samples.Basics",
+        "Reflow.Samples.VirtualizedList",
+        "Reflow.Samples.ExpandableGrid",
+        "Reflow.Samples.Selection",
+        "Reflow.Samples.Benchmark",
+        "UnityEngine.UI",
+        "Unity.TextMeshPro",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
