@@ -17,8 +17,9 @@
 - 把 `com.yuankunhuang.reflow` 目录放进工程的 `Packages/` 下，作为内嵌包使用。
 - 在 `Packages/manifest.json` 里用 git 引用：
   ```json
-  "com.yuankunhuang.reflow": "https://<git-host>/Reflow.git?path=/Packages/com.yuankunhuang.reflow"
+  "com.yuankunhuang.reflow": "https://github.com/YuankunHuang/Reflow.git?path=/Packages/com.yuankunhuang.reflow#v1.0.0"
   ```
+  `#v1.0.0` 是发布标签，去掉就跟随 main。仓库目前是私有的，安装的机器需要有访问权限（git 凭据能访问 GitHub 即可）。
 
 唯一的依赖是 `com.unity.ugui` 2.0.0。代码里 `using Reflow;`，编辑器扩展在 `Reflow.Editor`。组件在 Add Component 菜单的 **Layout/Reflow** 下，现成的滚动列表在 **GameObject/UI/Reflow** 下。
 
@@ -144,3 +145,7 @@ Tests/     EditMode（求解器、各布局、Fitter、调度、虚拟化、选�
            PlayMode（时序、动画、零 GC、Benchmark）
 Samples~/  Basics、VirtualizedList、ExpandableGrid、Selection、Benchmark
 ```
+
+## 许可证
+
+[MIT](LICENSE.md)。

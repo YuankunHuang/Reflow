@@ -5,6 +5,7 @@
 首个独立版本，从 museumclient 的 IGGLayout 重写而来。
 
 ### Added
+- MIT 许可证（包内 `LICENSE.md`）。
 - **测量 / 排布协议**：`ReflowNode`，带排版边界、测量缓存、排布跳过。
 - **调度**：`ReflowScheduler`，帧内合并刷新。刷新点在 LateUpdate 之前、画布更新之前，以及 `Canvas.preWillRenderCanvases`；另有读屏障 `EnsureLayout`。
 - **布局**：

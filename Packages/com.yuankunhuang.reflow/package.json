@@ -3,6 +3,7 @@
   "displayName": "Reflow",
   "version": "1.0.0",
   "unity": "6000.0",
+  "license": "MIT",
   "description": "High performance uGUI layout: measure/arrange protocol, frame-coalesced refresh that always applies in the same frame, virtualized pooled lists, grids, expandable grids, selection and spawn/reflow animations.",
   "keywords": [
     "ugui",
